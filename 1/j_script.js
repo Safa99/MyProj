@@ -5,7 +5,7 @@ function makeCounter()
 {
 	count:1,
 	up:function(){
-			this.count+=1;
+			return this.count+=1;
 		},
 				
 	set:function(n){
